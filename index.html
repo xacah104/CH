@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> نيك برك</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&family=Tajawal:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1> راهن وأنصر طائفتك </h1>
+        <p class="subtitle"> قم بمراهنة على شيخك المفضل</p>
+
+        <div class="candidates">
+
+            <div class="candidate">
+                <img src="dz.jpg" alt="صورة المرشح DZ">
+                <div class="name"> الشيخ شمس الدين الجزائري</div>
+                <button class="vote-btn" data-candidate="DZ">تصويت قوي</button>
+                <div class="payment-options">
+                    <button class="amount-btn" data-amount="200">200 دج</button>
+                    <button class="amount-btn" data-amount="500">500 دج</button>
+                    <button class="amount-btn" data-amount="1000">1,000 دج</button>
+                    <button class="amount-btn" data-amount="2000">2,000 دج</button>
+                    <button class="amount-btn" data-amount="5000">5,000 دج</button>
+                    <button class="amount-btn" data-amount="10000">10,000 دج</button>
+                </div>
+            </div>
+
+            <div class="candidate">
+                <img src="sr.jpg" alt="صورة المرشح SR">
+                <div class="name">الشيخ محمد بن شمس دين </div>
+                <button class="vote-btn" data-candidate="SR">تصويت قوي</button>
+                <div class="payment-options">
+                    <button class="amount-btn" data-amount="200">200 دج</button>
+                    <button class="amount-btn" data-amount="500">500 دج</button>
+                    <button class="amount-btn" data-amount="1000">1,000 دج</button>
+                    <button class="amount-btn" data-amount="2000">2,000 دج</button>
+                    <button class="amount-btn" data-amount="5000">5,000 دج</button>
+                    <button class="amount-btn" data-amount="10000">10,000 دج</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="loading" id="loading">
+            <p>جاري معالجة الدفع...</p>
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
